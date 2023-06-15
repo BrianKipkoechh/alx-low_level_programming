@@ -1,10 +1,16 @@
-iinclude <stdio.h>
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
 /**
-*main - unix
-*Return: 0
-*/
+ * main - main block
+ * Return: 1
+ */
 int main(void)
 {
-putchar("and that piece of art is useful" - Dora Korpar, 2015-10-19, ");
-return 0;
+	int s = strlen("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
+
+	write(2,
+	      "and that piece of art is useful - Dora Korpar, 2015-10-19\n",
+	      s);
+	return (1);
 }
