@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - Size is not grandeur, and territory does not make a nation
-* Return: return 0
+* Return: return i
 */
 int main(void)
 {
