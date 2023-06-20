@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main c is fun
+ * main.h
  * Return:0
  */
 int main(void)
